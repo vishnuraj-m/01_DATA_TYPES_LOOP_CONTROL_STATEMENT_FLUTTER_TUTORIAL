@@ -37,18 +37,26 @@ void main() {
 
 // !Control Statements
   // *if elseif
-  print('Enter a Number');
-  var input = stdin.readLineSync();
+  // print('Enter a Number');
+  // var input = stdin.readLineSync();
   // if (input == null) {
   //   input = "0";
   // }
-  var num1 = int.parse(input!);
+  // var num1 = int.parse(input!);
 
-  if (num1 > 0) {
-    print("$num1 is positive");
-  } else if (num1 == 0) {
-    print('Zero');
-  } else {
-    print("$num1 is negative");
+  // if (num1 > 0) {
+  //   print("$num1 is positive");
+  // } else if (num1 == 0) {
+  //   print('Zero');
+  // } else {
+  //   print("$num1 is negative");
+  // }
+  // ! Loop
+  // !for loop
+  print('Enter a number');
+  var input = stdin.readLineSync();
+  var num = int.parse(input!);
+  for (var i = 0; i <= num; i++) {
+    print(i);
   }
 }
