@@ -5,3 +5,4 @@ in `lib/`, and example unit test in `test/`.
 - Read and sum
 - data types
 - control statement (if ifelse)
+- loop (for loop)
