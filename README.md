@@ -4,3 +4,4 @@ in `lib/`, and example unit test in `test/`.
 - Read a Value (readLineSync)
 - Read and sum
 - data types
+- control statement (if ifelse)
