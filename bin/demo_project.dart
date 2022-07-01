@@ -17,4 +17,21 @@ void main() {
   var num2 = int.parse(input2!);
 
   print('Sum : ${num1 + num2}');
+
+  // !Data Types
+  int a = 10;
+  double b = 10.0;
+  num c = 20.10;
+  num d = 10;
+
+  String name = 'Vishnu';
+  String name1 = "I'am Vishnu";
+  String name2 = "I\"m vishnu";
+
+  String address = '''
+my name
+my address
+''';
+
+  print(address.length);
 }
