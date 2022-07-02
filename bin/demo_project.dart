@@ -80,4 +80,11 @@ void main() {
   numberList.addAll(numberList1);
   print(numberList.join('_'));
   print(numberList);
+
+  // !Nested List (2D array)
+  List<List<int>> list = [
+    [1, 2, 3],
+    [4, 5, 6]
+  ];
+  print(list[1][1]);
 }
