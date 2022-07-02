@@ -59,4 +59,25 @@ void main() {
   for (var i = 0; i <= num; i++) {
     print(i);
   }
+
+  // !List
+
+  List<int> numberList = [1, 2, 3, 4, 5];
+  var numberList1 = [1, 2, 3, 4, 5];
+  var array = ['abc', 2, '3', 3.0];
+
+  print(numberList1.length);
+
+  if (numberList.contains(7)) {
+    print('List has 7');
+  } else {
+    print("List doesn't have 7");
+  }
+  // !add
+  numberList1.add(7);
+  // !remove
+  numberList1.removeAt(0);
+  numberList.addAll(numberList1);
+  print(numberList.join('_'));
+  print(numberList);
 }
