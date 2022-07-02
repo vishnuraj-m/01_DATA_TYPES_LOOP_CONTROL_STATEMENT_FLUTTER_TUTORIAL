@@ -95,4 +95,20 @@ void main() {
 
   print(numberList);
   print(numberSet);
+
+  // !Map
+
+  Map<String, String> maps = {
+    'name': 'Vishnu',
+    'age': '30',
+  };
+  print(maps['name']);
+  print(maps['age']);
+
+  var maps1 = {
+    'name': 'Vishnu',
+    'age': 30,
+  };
+  print(maps1['name']);
+  print(maps1['age']);
 }
