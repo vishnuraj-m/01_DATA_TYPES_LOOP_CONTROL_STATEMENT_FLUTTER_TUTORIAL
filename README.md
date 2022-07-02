@@ -8,3 +8,4 @@ in `lib/`, and example unit test in `test/`.
 - loop (for loop)
 - List (similar as array)
 - Nested List (2d-array)
+- Set (remove duplicated)
