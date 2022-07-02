@@ -9,3 +9,4 @@ in `lib/`, and example unit test in `test/`.
 - List (similar as array)
 - Nested List (2d-array)
 - Set (remove duplicated)
+- Map (key value pairs)
